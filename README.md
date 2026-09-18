@@ -1,0 +1,24 @@
+Asynchronous Activity 2: Student Early Warning Tool Using KNIME
+
+This repository contains the required output for Asynchronous Activity 2. The project uses KNIME to predict student risk status from academic performance data.
+
+## Files
+- `DemoEarlyWarningTool.knwf` - exported KNIME workflow
+- `student_performance_knime.csv` - dataset used by the workflow
+
+## Algorithms
+- Decision Tree
+- Logistic Regression
+- Random Forest
+
+## How to Run
+1. Import the `.knwf` file into KNIME Analytics Platform.
+2. Configure the CSV Reader and select the included dataset.
+3. Execute all nodes.
+4. Open the Scorer nodes to review the evaluation results.
+
+## Author
+Vignesh Gopal
+
+## Course and Section
+BSCSSE-AL 4th year
